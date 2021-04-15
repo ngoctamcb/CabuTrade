@@ -1,0 +1,11 @@
+framework module CabuTrade {
+  umbrella header "CabuTrade.h"
+
+  export *
+  module * { export * }
+}
+
+module CabuTrade.Swift {
+    header "CabuTrade-Swift.h"
+    requires objc
+}

@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB9E44C12627C5040083E582 /* CabuTrade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9E44B72627C5030083E582 /* CabuTrade.framework */; };
+		DB9E44C62627C5040083E582 /* CabuTradeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9E44C52627C5040083E582 /* CabuTradeTests.swift */; };
+		DB9E44C82627C5040083E582 /* CabuTrade.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9E44BA2627C5030083E582 /* CabuTrade.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB9E44D42627C5240083E582 /* CabuCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9E44D32627C5240083E582 /* CabuCoin.swift */; };
+		DB9E44E02627C6AA0083E582 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9E44DF2627C6AA0083E582 /* AppDelegate.swift */; };
+		DB9E44E22627C6AA0083E582 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9E44E12627C6AA0083E582 /* SceneDelegate.swift */; };
+		DB9E44E42627C6AA0083E582 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9E44E32627C6AA0083E582 /* ViewController.swift */; };
+		DB9E44E72627C6AA0083E582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9E44E52627C6AA0083E582 /* Main.storyboard */; };
+		DB9E44E92627C6AD0083E582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9E44E82627C6AD0083E582 /* Assets.xcassets */; };
+		DB9E44EC2627C6AD0083E582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9E44EA2627C6AD0083E582 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB9E44C22627C5040083E582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB9E44AE2627C5030083E582 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB9E44B62627C5030083E582;
+			remoteInfo = CabuTrade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB9E44B72627C5030083E582 /* CabuTrade.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CabuTrade.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9E44BA2627C5030083E582 /* CabuTrade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CabuTrade.h; sourceTree = "<group>"; };
+		DB9E44BB2627C5030083E582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB9E44C02627C5040083E582 /* CabuTradeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CabuTradeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9E44C52627C5040083E582 /* CabuTradeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabuTradeTests.swift; sourceTree = "<group>"; };
+		DB9E44C72627C5040083E582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB9E44D32627C5240083E582 /* CabuCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabuCoin.swift; sourceTree = "<group>"; };
+		DB9E44DD2627C6AA0083E582 /* CabuTradeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CabuTradeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9E44DF2627C6AA0083E582 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB9E44E12627C6AA0083E582 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DB9E44E32627C6AA0083E582 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB9E44E62627C6AA0083E582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB9E44E82627C6AD0083E582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB9E44EB2627C6AD0083E582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB9E44ED2627C6AD0083E582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB9E44B42627C5030083E582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9E44BD2627C5040083E582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9E44C12627C5040083E582 /* CabuTrade.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9E44DA2627C6AA0083E582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB9E44AD2627C5030083E582 = {
+			isa = PBXGroup;
+			children = (
+				DB9E44B92627C5030083E582 /* CabuTrade */,
+				DB9E44C42627C5040083E582 /* CabuTradeTests */,
+				DB9E44DE2627C6AA0083E582 /* CabuTradeExample */,
+				DB9E44B82627C5030083E582 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB9E44B82627C5030083E582 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB9E44B72627C5030083E582 /* CabuTrade.framework */,
+				DB9E44C02627C5040083E582 /* CabuTradeTests.xctest */,
+				DB9E44DD2627C6AA0083E582 /* CabuTradeExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB9E44B92627C5030083E582 /* CabuTrade */ = {
+			isa = PBXGroup;
+			children = (
+				DB9E44BA2627C5030083E582 /* CabuTrade.h */,
+				DB9E44BB2627C5030083E582 /* Info.plist */,
+				DB9E44D32627C5240083E582 /* CabuCoin.swift */,
+			);
+			path = CabuTrade;
+			sourceTree = "<group>";
+		};
+		DB9E44C42627C5040083E582 /* CabuTradeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB9E44C52627C5040083E582 /* CabuTradeTests.swift */,
+				DB9E44C72627C5040083E582 /* Info.plist */,
+			);
+			path = CabuTradeTests;
+			sourceTree = "<group>";
+		};
+		DB9E44DE2627C6AA0083E582 /* CabuTradeExample */ = {
+			isa = PBXGroup;
+			children = (
+				DB9E44DF2627C6AA0083E582 /* AppDelegate.swift */,
+				DB9E44E12627C6AA0083E582 /* SceneDelegate.swift */,
+				DB9E44E32627C6AA0083E582 /* ViewController.swift */,
+				DB9E44E52627C6AA0083E582 /* Main.storyboard */,
+				DB9E44E82627C6AD0083E582 /* Assets.xcassets */,
+				DB9E44EA2627C6AD0083E582 /* LaunchScreen.storyboard */,
+				DB9E44ED2627C6AD0083E582 /* Info.plist */,
+			);
+			path = CabuTradeExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DB9E44B22627C5030083E582 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9E44C82627C5040083E582 /* CabuTrade.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DB9E44B62627C5030083E582 /* CabuTrade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9E44CB2627C5040083E582 /* Build configuration list for PBXNativeTarget "CabuTrade" */;
+			buildPhases = (
+				DB9E44B22627C5030083E582 /* Headers */,
+				DB9E44B32627C5030083E582 /* Sources */,
+				DB9E44B42627C5030083E582 /* Frameworks */,
+				DB9E44B52627C5030083E582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CabuTrade;
+			productName = CabuTrade;
+			productReference = DB9E44B72627C5030083E582 /* CabuTrade.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB9E44BF2627C5040083E582 /* CabuTradeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9E44CE2627C5040083E582 /* Build configuration list for PBXNativeTarget "CabuTradeTests" */;
+			buildPhases = (
+				DB9E44BC2627C5040083E582 /* Sources */,
+				DB9E44BD2627C5040083E582 /* Frameworks */,
+				DB9E44BE2627C5040083E582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB9E44C32627C5040083E582 /* PBXTargetDependency */,
+			);
+			name = CabuTradeTests;
+			productName = CabuTradeTests;
+			productReference = DB9E44C02627C5040083E582 /* CabuTradeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB9E44DC2627C6AA0083E582 /* CabuTradeExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9E44EE2627C6AD0083E582 /* Build configuration list for PBXNativeTarget "CabuTradeExample" */;
+			buildPhases = (
+				DB9E44D92627C6AA0083E582 /* Sources */,
+				DB9E44DA2627C6AA0083E582 /* Frameworks */,
+				DB9E44DB2627C6AA0083E582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CabuTradeExample;
+			productName = CabuTradeExample;
+			productReference = DB9E44DD2627C6AA0083E582 /* CabuTradeExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB9E44AE2627C5030083E582 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					DB9E44B62627C5030083E582 = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+					DB9E44BF2627C5040083E582 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					DB9E44DC2627C6AA0083E582 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = DB9E44B12627C5030083E582 /* Build configuration list for PBXProject "CabuTrade" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB9E44AD2627C5030083E582;
+			productRefGroup = DB9E44B82627C5030083E582 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB9E44B62627C5030083E582 /* CabuTrade */,
+				DB9E44BF2627C5040083E582 /* CabuTradeTests */,
+				DB9E44DC2627C6AA0083E582 /* CabuTradeExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB9E44B52627C5030083E582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9E44BE2627C5040083E582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9E44DB2627C6AA0083E582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9E44EC2627C6AD0083E582 /* LaunchScreen.storyboard in Resources */,
+				DB9E44E92627C6AD0083E582 /* Assets.xcassets in Resources */,
+				DB9E44E72627C6AA0083E582 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB9E44B32627C5030083E582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9E44D42627C5240083E582 /* CabuCoin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9E44BC2627C5040083E582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9E44C62627C5040083E582 /* CabuTradeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9E44D92627C6AA0083E582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9E44E42627C6AA0083E582 /* ViewController.swift in Sources */,
+				DB9E44E02627C6AA0083E582 /* AppDelegate.swift in Sources */,
+				DB9E44E22627C6AA0083E582 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB9E44C32627C5040083E582 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB9E44B62627C5030083E582 /* CabuTrade */;
+			targetProxy = DB9E44C22627C5040083E582 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB9E44E52627C6AA0083E582 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB9E44E62627C6AA0083E582 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB9E44EA2627C6AD0083E582 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB9E44EB2627C6AD0083E582 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB9E44C92627C5040083E582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB9E44CA2627C5040083E582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB9E44CC2627C5040083E582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TH5BT632CM;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 armv7 arm64-ios-simulator";
+				INFOPLIST_FILE = CabuTrade/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamtran.CabuTrade;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB9E44CD2627C5040083E582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TH5BT632CM;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = CabuTrade/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamtran.CabuTrade;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB9E44CF2627C5040083E582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TH5BT632CM;
+				INFOPLIST_FILE = CabuTradeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamtran.CabuTradeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB9E44D02627C5040083E582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TH5BT632CM;
+				INFOPLIST_FILE = CabuTradeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamtran.CabuTradeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB9E44EF2627C6AD0083E582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TH5BT632CM;
+				INFOPLIST_FILE = CabuTradeExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamtran.CabuTradeExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB9E44F02627C6AD0083E582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TH5BT632CM;
+				INFOPLIST_FILE = CabuTradeExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tamtran.CabuTradeExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB9E44B12627C5030083E582 /* Build configuration list for PBXProject "CabuTrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9E44C92627C5040083E582 /* Debug */,
+				DB9E44CA2627C5040083E582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB9E44CB2627C5040083E582 /* Build configuration list for PBXNativeTarget "CabuTrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9E44CC2627C5040083E582 /* Debug */,
+				DB9E44CD2627C5040083E582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB9E44CE2627C5040083E582 /* Build configuration list for PBXNativeTarget "CabuTradeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9E44CF2627C5040083E582 /* Debug */,
+				DB9E44D02627C5040083E582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB9E44EE2627C6AD0083E582 /* Build configuration list for PBXNativeTarget "CabuTradeExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9E44EF2627C6AD0083E582 /* Debug */,
+				DB9E44F02627C6AD0083E582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB9E44AE2627C5030083E582 /* Project object */;
+}
